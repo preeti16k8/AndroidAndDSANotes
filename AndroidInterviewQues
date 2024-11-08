@@ -1,0 +1,256 @@
+Android Question Bank            — Preeti
+
+1. OOPS Concept - Inheritance, Polymorphism, Abstraction, Encapsulation
+2. Difference between Abstract class and Interface.
+3. SOLID Principles
+4. What synchronous key word in java?
+5. Explain Android architecture components
+6. Activity and Fragment lifecycle and with some example scenarios
+7. Activity lifecycle as user moves from one activity to another and when pressing back or home button.
+8. Types of Intents (Sticky, Pending etc...)
+9. Activity Launch Modes
+10. Difference between Serializable and Parcelable
+11. What are content providers and benefits
+12. Threads vs Coroutines
+13. Types of Coroutines
+14. MVVM vs MVP vs MVC
+15. How Controller works in MVVM
+16. Benefits of MVVM
+17. Async task drawback and how MVVM can help here
+18. Explain MVVM architecture for Login feature, what are the classes you will create
+19. What is LiveData and its Benefits
+20. What is MutableLiveData? Difference between LiveData and MutableLiveData
+21. Why LiveData is required with MVVM
+22. How to share data b/w two Fragments that are visible on an activity at same time? (Using MVVM and Interface)
+23. What are memory leaks
+24. How to find out memory leaks, any tools available for it and How to use the tool
+25. What are Services
+26. Types of Services (Intent Service, Background and Foreground)
+27. What is a JobService
+28. What are work managers and Types
+29. What is Serializable?
+30. What is Parcelable?
+31. Why Kotlin? What are the benefits?
+32. Difference between var & val
+33. What is companion in kotlin?
+34. Singleton in Kotlin?
+35. High order functions.
+36. Flows.
+37. Kotlin Scopes
+38. Difference between the Kotlin Scope functions. (diff b/t apply and also etc...)
+39. Kotlin Extension functions
+40. Redux Framework
+41. What is Dependency Injection
+42. Benefits of Dependency Injection
+43. Which Dependency Injection you have worked (Dagger or HILT or any), explain its implementation
+44. What are the different ways to store app data or user data
+45. Shared preferences - Difference between apply) and commit()
+46. Have you written any Unit Testing?
+47. What are the different types in Unit testing?
+48. Have you used any test tools in your project?
+49. Whurale he euriy measures you take care When releasing the app? (Proguard, Keystore,
+50. What are Product flavours and benefits of it?
+51. What Network Library you use? (Retrofit)
+52. Any Image processing library you have used? (Glide, Fresco and Picasso)
+53. Difference between these image libraries?
+54. Have you used Paging Jetpack and how it works?
+55. Have you used Compose Jetpack and how it works?
+56. What are Data Structures?
+57. How to traverse LinkedList in best optimized way?
+58. What is the Big O Time complexity of it?
+
+ Also brush up with below question too
+
+Encapsulation vs abstraction - binding the variable and methods is encapsulation
+Synchronized
+Life cycle activity
+Fragment lifecycle
+viewmodel provider - life cycle owner
+Scop functions - context object type (this /It).
+High order function
+Extensions
+What is MVVM.
+What are testing frame work used?
+What happens when activity orientation changes. 
+Activity life cycle when orientation change. 
+Jetpack compose vs traditional xml.
+How state management works in compose. 
+Hot Flow vs Cold flow. Example for them. 
+Kotlin coroutines - three Api calls execute them in parallel.
+If exception - supervisor operator, coroutine scope.
+What are dispatcher? 
+Live Data set and post value. - Done What is inline function and what are limitations. 
+What is sealed class.
+What is companion object. 
+When we use Lazy.
+What type of android exceptions u have faced. 
+What happens when we use set value of live data used in background thread. 
+When vm gets cleared from memory. 
+And how does it survives orientation change. 
+Which life cycle of activity triggers the viewmodel clear from memory - https://medium.com/codex/how-do-view-models-know-how-to-survive-configuration-changes-66aef641f59c
+How can destroy activity - Finish)
+Does thread attached with life cycle or work independently.
+Memory leak -
+When we should application context.
+Example for above.
+Can we start a dialog with application context.
+Shared preference - file type stored. - apply and commit diff
+How to share shared pref - content provider.
+When I want to directly sent shared pref. 
+What is the use of Find view by id, same ids how it works internally.
+Difference between oncreate and onstart method.
+Is it fine to use findviewby id in start.
+What is thread safe singleton means.
+What happens when two threads trying to access same method.
+Which thread shared pref use to store data.
+How we store large data and on which thread.
+What is the difference between static and dynamic list.
+In static data how can we insert data more than given size.
+Whats the time complexity to find the data in list.
+Whats the difference between list and set. What happens if duplicate is tried to add
+Can I assign null value to late init variable
+Retrofit - how does internally do the network call?
+What happen if we don't provide converter in retrofit. -
+What kind of interceptor retrofit supports. 
+Whats difference between network and application interceptor
+Which one calls first when we do network call.
+When application and network interceptors are called?
+Why we use DI? 
+Describe the repository pattern.
+How network data chache in db, how u do it using repository pattern 
+Where this repository fits in clean architecture. 
+How it interact with other layer.
+How to decide whether to use suspend function or flow in methods?
+How u handle exceptions in coroutines? 
+How u handle exceptions in flows? 
+How different is life cycle diff from activity and fragment
+One activity and two fragments, and wanna share view model how u do it.
+Why we use intent to pass the data?
+What happen if we want to pass complex object which is not parcelable or serialization?
+Can we share one view model in two activity?
+In shared view model which life cycle it will use?
+What is broadcast receiver in android . Types of broadcast receiver in android
+
+Scenario based Question: 
+
+What to use or achieve in case of below scenario,
+Suppose we have API calls . We don't want to hit API frequently. We want to hit API only if there is any change in server side. Then how we will achieve this thing in android
+
+How to catch data in android when there is no internet scenario
+
+How to know if internet is available in app or not
+
+How location is traced in android app? How to identify it
+
+How distance is calculated in uber app. Distance between source and destination
+
+
+Android Interview Questions:
+
+   1.   Services  (started services and Binder Services)  , services lifecycle.
+      Intent service, jobIntent services, Work Manager (part of jet pack compose)
+
+2. a) Activity and fragment life cycle , view model life cycle: Scenario based like when you click back button, minimise home button, phone
+      Call comes in between when app already opened, or notification comes in between.
+      b) Android Component: Activity, service, broadcast receiver, content provider
+      c) Life cycle Aware Components
+      d) Android launch modes?
+      e) custom Views in android
+
+  3. Kotlin Scope functions: let , apply, with , run, also
+      Null safety : java Vs kotlin
+      Difference between Data class and normal class
+      Difference between Sealed class and Enum class
+      About RecyclerView -> layout Manager , paging 
+     
+     Memory Leaks: what is memory leaks and types of it, how to identify and avoid memory leaks.?
+ 
+What is lateinit , lazy , Elvis operator in kotlin.?
+What is companion object?
+What is Open keyword?
+What is difference between const and val?
+What is Livedata and types of live data and differences?
+What is Extension function?
+What is Lambda Expression?
+What is higher order functions?
+What is view model and viewmodelfactory ?
+Viewmodel Vs AndroidViewModel
+Kotlin Collections:
+Array: Mutable but has fixed size
+Collections: 
+Immutable collections: (read only) listOf, mapOf, setOf
+Mutable list: ArrayList, arrayListOf, mutableListOf
+Mutable Map : HashMap, hashMapOf, mutableMapOf
+Mutable Set: mutableSetOf, hashSetOf
+
+Filter , Map operator , predicates -> all, any, count, find
+FlatMap Vs Map
+
+Abstract , interface , inheritance in Kotlin 
+      
+ How to call Multiple APIs in parallel and in sequence with the help of RxJava Operators.
+ (Use flatMap for sequential  and use Zip operator for parallel(
+ 
+How to call 2 Apis parallely in coroutines 
+
+How branching strategy works in project?
+
+About Synchronous and Asynchronous programming
+What is Coroutines? What is suspend function, run blocking function?
+What is launch , async, with context, global scope, CoroutineScope
+Scopes in Kotlin Coroutines?
+Network call using callback, rxjava , using coroutines.
+Dispatchers in Coroutines
+How to launch and cancel Coroutines?
+
+Compose: remember, modifiers , side effects in compose, stateful , stateless , state hoisting ?
+
+Retrofit: http request and response, http methods, restful web services (json and soap services)
+How to use rest api in android app?
+What is GSON? 
+What is dynamic and static header? 
+What is Interceptors?
+
+Database: Room and Sqlite , advantages of room, About database migrations
+
+Navigation components: nav graph , jetpack compose navigation (navhost, navcontoller) 
+
+How to go from one fragment to another and how to pass data using nav graph or traditional method?
+Hint: findnavcontoller.navigate using destination id or action id.
+
+Scenario based: If going from frag A to B to C , now on pressing back at C , should open A directly . How to achieve this?
+Hint: use popup inclusive true and popup to A.
+
+Databinding Vs ViewBinding (compare with findviewById)
+
+ Dependency injection: Dagger2 and Hilt 
+  MVVM and MVP , Clean Code Architecture.
+  SOLID principle
+   Design Patterns: Singleton , Factory, Builder, Facade, Dependency injection, Adapter Pattern, Repository pattern
+
+About Composite Disposables.
+Unit testing - Espresso, junitMockito
+
+Flow: cold flow, hot flow , shared flow, state flow
+
+Proguard  Vs R8
+How to secure app ? How to reduce app size?
+
+Git: what is merge Vs rebase, cherry pick
+
+Agile: what is agile, advantages of agile, scrum , kanban , Devops, retrospective meeting, 
+Product backlog, sprint backlog, sprint planning meeting, what is CI/CD pipeline? 
+CI/CD tools-> azure, Jenkins. 
+
+Process in pipeline-> Code check Out + build creation + run test cases + sonar Qube + merging into upper branch +
+Pushing into upper branch + pushing to cloud /app center + push to play store.
+
+How to resolve conflicts in team as  an Android lead?
+How to lead an android development team?
+What is the difference between a team leader and a team manager?
+When do you consider success for you as a leader?
+What is the most difficult part of being a leader?
+What qualities should a team leader have?
+What is your greatest weakness?
+What is your greatest strength?
+How would your team members and colleagues describe you?
